@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Cadastro de Clientes</h1>
+        <p>Complete com suas informações</p>
+    </div>
+    <div>
+        <form action="">
+            <fieldset>
+                <div> <br>
+                    <label for="">Nome</label>
+                    <input type="text" name="nome" id="nome">
+                </div>
+<br>
+                <div>
+                    <label for="">Sobrenome</label>
+                    <input type="text" name="sobrenome" id="sobrenome">
+                </div>
+<br>
+                <div>
+                    <label for="">Email</label>
+                    <input type="text" name="email" id="email">
+                    
+                </div>
+                <br>
+
+            </fieldset>
+<br>
+
+                <div>
+                    <label for="">Qual atendimento deseja obter da Barbearia Alfa.</label>
+                    <br>
+                    <label for="">
+                        <input type="radio" name="atendimento" value="barba" checked> Barba
+                    </label>
+                    <label for="">
+                        <input type="radio" name="atendimento" value="bigode" > Bigode
+                    </label>
+                    <label for="">
+                        <input type="radio" name="atendimento" value="cabelo" > Cabelo
+                    </label>
+                    <label for="">
+                        <input type="radio" name="atendimento" value="Barba" > Barba, Bigode e Cabelo
+                    </label>
+                </div>
+<br>
+                <div>
+                    <label for="">Turno de prefêrencia para atendimento</label>
+                    <select name="" id="">
+                        <option selected disabled value=""></option>
+                        <option value="">Manhã</option>
+                        <option value="">Tarde</option>
+                        <option value="">Noite</option>
+                    </select>
+
+                    <div>
+                        <br>
+                        <fieldset>
+
+                            <div>
+                                <label for="">Selecione os detalhes adicionais para o seu atendimento.</label> <br>
+                                <input type="checkbox" name="adicional1" value="Corte">
+                                <label for="">Corte</label>
+                                <input type="checkbox" name="adicional2" value="Tingimento">
+                                <label for="">Tingimento</label>
+                                <input type="checkbox" name="adicional3" value="Manicure">
+                                <label for="">Manicure</label>
+                                <input type="checkbox" name="adicional4" value="Podologia">
+                                <label for="">Podologia</label>
+
+                            </div>
+                        </fieldset>
+                    </div><br>
+                    <label for=""><label for="">Deseja detacar alguma informação adicional</label></label>
+                    <textarea name="destaque" id="" cols="30" rows="6"></textarea>
+                </div>
+                <button type="submit">Concluir</button>
+
+        </form>
+    </div>
+
+    
+</body>
+</html>
