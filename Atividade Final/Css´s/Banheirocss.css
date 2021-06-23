@@ -1,0 +1,18 @@
+
+
+#B img {            /*Tamanho de Imagens Uma ao Lado da Outra*/
+    width: 500px;
+    height: 333px;
+
+}
+
+#P img{              /*Tamanho de Imagem Abaixo dos Textos(Promoções)*/
+    width: 1000px;
+    height: 550px;
+    text-align: center;
+
+}
+
+#video {                    /*Centralizando Vídeo da Página*/
+    text-align: center;
+}

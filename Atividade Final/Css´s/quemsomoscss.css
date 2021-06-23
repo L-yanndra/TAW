@@ -1,0 +1,53 @@
+
+
+form{ /*Estilo de dentro da form*/
+  font-family: 'Poppins', sans-serif; /*Estilo da font da form*/
+    font-size: 18px; /*Tamanho da font da form*/
+    margin-left: 5%; /*Margem da form a Esquarda*/
+    margin-right: 10%; /*Margem da form a Direita*/
+  }
+  
+  
+  
+  input:invalid{
+    border-color: rgb(252, 0, 0); /*Cor do Quadrinho quando Da Informação Invalida*/
+    
+  }
+  
+  span{ /*Cor do Span*/
+    color: crimson;
+
+  }
+
+  
+  
+
+
+
+/*BOTÕES*/
+
+.efeito{ /*cor do botão antes do mouse passar por cima*/
+  background-color:  #1abc9c ;
+  color: #ffffff;
+  border: 0px;
+  height: 44px;
+  width: 155px;
+  border-radius: 10px
+  
+
+}
+
+.efeito:hover{
+  background-color: #ffffff; /*cor do botão depois do mouse passar por cima*/
+  color: #1abc9c; /*cor das letras depois do mouse passar por cima*/
+  box-shadow: inset 0 0 0 3px #1abc9c; /*cor das letras e da borda depois do mouse passar por cima*/
+
+}
+
+
+b{  /*Para espaçar A imagem e o Texto*/
+  color: #ffffff;
+}
+
+
+

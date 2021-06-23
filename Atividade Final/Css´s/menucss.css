@@ -1,0 +1,73 @@
+    
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@800&display=swap');
+/*Estilo de fonte para os TÍTULOS*/
+
+
+
+
+*{
+    height: 100%;
+} /*Tamanho do conjunto*/
+
+ 
+body{
+    
+        background-color: #e67e22; /*cor de fundo*/
+        color: #f7f9f9; /*cor das letras*/
+
+        height: 25px; /*altura fixa do menu na pagina inicial*/
+        text-align: center; /*Centralizador*/
+        font-family: 'Big Shoulders Stencil Display', cursive; /*FONTE*/
+        
+}
+
+h1{ /*título*/
+    font-size: 50px;
+    text-align: left;
+    color: #ffffff;
+    margin-left: 8%;
+    margin-bottom: 12px;
+    
+
+}
+tp{ /*espaço dos botões e a listra de baixo*/
+    font-size: 0%;
+    height: 19%;
+}
+p{ /*listra de cima e de baixo*/
+    background-color: #1abc9c;
+    font-size: 2%;
+    height: 19%;
+    
+}
+input{ /*Estilo dos botões*/
+    color:#ffffff ; /*cor das letras antes do mouse passar por cima*/
+    width: 19%; /*largura*/ 
+    height: 30px; /*altura*/
+    border: none; /*sem linhas nas bordas*/
+    border-radius: 10px; /*bordas arredondadas*/   
+    
+    font-size: 22px;
+}
+
+/*BOTÕES*/
+
+.efeito{ /*cor do botão antes do mouse passar por cima*/
+    background-color:  #1abc9c ;
+
+}
+
+.efeito:hover{
+    background-color: #e67e22; /*cor do botão depois do mouse passar por cima*/
+    color: #1abc9c; /*cor das letras depois do mouse passar por cima*/
+    box-shadow: inset 0 0 0 3px #1abc9c; /*cor das letras e da borda depois do mouse passar por cima*/
+
+}
+
+
+@import url('https://fonts.googleapis.com/css2? family = Grande + Ombros + Estêncil + Tela: wght @ 600 & display = swap');
+
+.titulo{
+    
+    font-family: 'Big Shoulders Stencil Display', cursivo;
+}

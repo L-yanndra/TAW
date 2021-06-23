@@ -1,0 +1,48 @@
+
+
+
+
+.carousel-item{ /*Carrossel Posicionamento*/
+    height: 377px; /*Altura da Imagem*/
+    margin-top: 0%;  /*Margem 0*/
+
+}
+
+p{ /*Títulos abaixo dos QuadrosLinkados//*/
+    height: 58px; /*Posicionamento do p abaixo do h1 no carrosel(Acabou influenciando na centralização do h1)*/
+    text-align: center; /*CENTRALIZAÇÂO*/
+    font-size: 55px;    /*TAMANHO FONTE*/
+    font-family: 'Big Shoulders Stencil Display', cursive; /*FONTE ESTILO*/
+    
+}
+
+
+
+img.displayed {
+    display: block;
+    width: 100%;
+    text-align: center; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+    
+h1{                     /*Título*/
+    color: black;           /*Cor do Título*/
+    text-align: center;       /*Posição do Título*/
+    font-size: 40px;          /*Tamanho do Título*/
+}
+
+
+
+    
+
+  
+  
+  
+  
+ 
+
+   
+

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Construcenter Piancó</title>
+
+    <iframe  width="95.4%" height="144px"   src="Menu.html" ></iframe> <!--Link para o menu-->
+    
+
+    <link rel="stylesheet" href="Css´s/EstiloTodo.css"> <!--Link para o css Conjunto das paginas-->
+    
+    <link rel="stylesheet" href="Css´s/quemsomoscss.css"> <!--Link para o css da pagina--> 
+    
+    <link rel="stylesheet" href="css/bootstrap.css"> <!--Link para o css do bootstrap-->
+
+
+</head>
+<body>
+
+  
+
+<br>
+
+
+    <div class="container"> 
+      <h1>Quem Somos?</h1> <!--Título1-->
+
+      <div> <!--Conteiner de Imagem e Texto-->
+
+          <br>
+
+            <!--Imagem ao lado do Texto-->
+          <b style="float: left;"><img src="Img´s/Atendimento.jpg" alt="logo" width="600px"  align="left">.....</b> <!--...usados para espaçamento-->
+          
+
+
+            <!--Texto ao lado da Imagem-->
+
+          <p>
+            Lorem ipsum dapibus platea taciti mollis id ante ac hendrerit, 
+            mauris et non etiam fusce maece eleifend ycubilia malesuada,
+             luctus amet arcu sed eu grhh un a fermentum 
+            dolor  nec nisi. nibh interdum scelerisque posuere etiam  
+            lorem ornare metus. <br>
+            Adipiscing platea, nec eu maenas vehicula interdum  
+            orci enim, augue facilisis morbi malesuada consequat etiam
+            malesuada scelerisque.  <br>
+
+            Eu mollis enim aliquet suspendisse fames dui sapien,  
+            ipsum dapibus platea taciti mollis id ante ac hendrerit, 
+            mauris et non etiam fusce maece eleife
+            enim egestas curabitur tellus est quis ac tincidunt, varius  
+               
+            etiam, conubia diam semper dui semper porttitor mauris  
+            mollis egestas interdum, elit  platea  
+            vestibulum tempor venenatis litora. <br> 
+
+        </p>
+        
+
+      </div> <!--Fim Conteiner de Imagem e Texto-->
+           
+    
+</div>     
+    
+    <br> 
+    <br> 
+    <br>
+    <br>
+    
+    
+
+    
+<br>
+
+
+<form id="register-form" action=""> <!--INÍCIO da forma do FORMULARIO-->
+
+  
+
+  <h2>Fale Conosco:</h2> <!--Título 2-->
+
+<br>
+
+
+<div class="input"> <!--Início do Quadro de Nome-->
+        
+            <label for="nome" >Nome: </label> <!--Texto acima da interração-->
+              <input type="text" name="nome" class="form-control" id="nome" onkeypress="return lettersOnly(event);"  required> <!--Input Nome-->
+                <span class="error-cpf  "></span> <!--Classe Error/Para Script-->
+          
+  </div> <!--Fim do Quadro de Nome-->
+
+<br>
+
+      <div class="input"> <!--Início do Quadro de Sobrenome-->
+        
+            <label for="sobrenome"> Sobrenome: </label> <!--Texto acima da interração-->
+              <input id="sobrenome" type="text" name="sobrenome" class="form-control"  onkeypress="return lettersOnly(event);" required> <!--Input Sobrenome-->
+                <span id="error-num "></span> <!--Classe Error/Para Script-->
+
+        </div> <!--Fim do Quadro de Sobrenome-->
+
+<br>
+<br>
+
+<div class="form-group">
+  <div class="mb-3"> <!--Início da Div(E-mail)-->
+
+    <label for="email" class="form-label">E-mail:</label> <!--Texto acima da interração-->
+
+      <input type="email" class="form-control" id="email"  placeholder="ExemploDeE_mail@gmail.com" onblur="validarEmail()" onfocus="redefinirMsg()" id="email"  maxlength="60" size='65' required> <!--Input E-mail-->
+          
+        <span id="error-cpf"></span>  <!--Classe Error/Para Script-->
+
+      </div>
+
+  </div> <!--Final da Div(E-mail)-->
+    
+<br>
+    
+    <div> <!--Início da Div(Blocos de números)-->
+
+      
+      <div> <!--Início da Div(CPF)--> 
+
+        <label for="CPF" class="form-label">CPF: </label> <!--Texto acima da interração-->
+
+          <input id="cpf" type="text" name="cpf" pattern="^\d{3}\.\d{3}\.\d{3}\-\d{2}$" title="CPF" class="form-control input-sm" onkeyup="somenteNumeros(this);" maxlength="11" ng-model="numero.valor" placeholder="000.000.000-00" required > <!--Input CPF-->
+        
+           <span id="error-cpf"></span> <!--Classe Error/Para Script-->
+
+      </div> <!--Final da Div(CPF)-->
+
+<br>
+        
+        <div> <!--Início da Div(Num de TELEFONE)-->
+
+          <label for="Num" class="form-label">Número de Telefone: </label> <!--Texto acima da interração-->
+
+            <input id="num" type="text" name="cpf"  title="Número de Telefone" class="form-control input-sm" onkeyup="somenteNumeros(this);" maxlength="11" ng-model="numero.valor" placeholder="(00)0 0000-0000" required> <!--Input NUMero de Telefone-->
+        
+              <span id="error-num"></span>  <!--Classe Error/Para Script-->
+
+        </div> <!--Final da Div(Num de TELEFONE)-->
+
+   
+</div> <!--Final da Div(Blocos de números)-->
+
+
+<br>
+<br>
+<br>
+  
+
+    <div> <!--Início da Div(ASSUNTO)-->
+
+      <label for="Assunto" class="form-label">Assunto:</label> <!--Texto acima da interração-->
+
+        <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example"> <!--Quadrinhos de Seleção-->
+
+          <option selected>...</option> <!--Texto assunto para Selecionar-->
+          <option value="1">One</option> <!--Texto assunto para Selecionar-->
+          <option value="2">Two</option> <!--Texto assunto para Selecionar-->
+          <option value="3">Three</option> <!--Texto assunto para Selecionar-->
+
+        </select>
+
+    </div> <!--Final da Div(ASSUNTO)-->
+
+
+
+
+    <div class="mb-3"> <!--Início da Div(MENSAGEM)-->
+
+      <label for="mensagem" class="form-label">Mensagem:</label> <!--Texto acima da interração-->
+
+        <textarea class="form-control" id="mensagem" rows="3" ></textarea> <!--Area de Mensagem-->
+
+    </div> <!--Final da Div(MENSAGEM)-->
+
+
+    
+    
+    <br>
+    <button type="submit" class="efeito"  onclick="enviar()" >Enviar</button> <!--BOTÃO-->
+    
+    
+    
+    <br>
+    
+
+  </form> <!--FIM da forma do FORMULARIO-->
+
+
+          </div>
+
+          <br>
+          <br>
+
+  
+  <form class="grupo" action="">  <!--Inicio da form de Informações do Usuario-->
+    <fieldset>
+
+            <div id="idnome"></div> <!--Id para Reescrever Nome -->
+        <br>
+            <div id="idsobrenome"></div> <!--Id para Reescrever Sobrenome -->
+        <br>
+        <br>
+            <div id="idemail"></div> <!--Id para Reescrever E-mail -->
+        <br>
+        <br>
+            <div id="idcpf"></div> <!--Id para Reescrever CPF -->
+        
+        <br>
+            <div id="idnum"></div> <!--Id para Reescrever NUMero -->
+        <br>
+        <br>
+        <br>
+            <div id="idmensagem"></div> <!--Id para Reescrever Mensagem do Usuario -->
+        <br>
+
+      </fieldset>
+  </form> <!--Fim da form de Informações do Usuario-->
+</div>
+
+<br>
+<br> 
+<br> 
+<br> 
+<br>
+
+<div id="wrapper"> <!--Div para indicar Início do site/Para o rodade-->
+
+  <div class="container body-content"> <!--Div para indicar Início do Conteudo do site/Para o rodade-->
+
+
+    <script src="QuemSomos.js"></script> <!--Link pra o JS do FORMULARIO-->
+
+    <script src="js/bootstrap.js"></script> <!--Link pra o JS do bootstrap-->
+
+    
+
+</div> <!--Div para indicar Fim do Conteúdo site/Para o rodade-->
+
+  <footer id="rodape">  <!--Rodape--> <!--Fim do rodape-->
+  <br>
+
+    <r>Rua: Melanie Martinez, 666</r> <br>
+    <r>Telefone:(99)9 9999-9999.</r> <br>
+    <r>Maranhão-PI</r>
+    <br>
+  </footer>  <!--Fim do rodape-->           
+
+</div> <!--Div para indicar Fim do site/Para o rodade-->
+
+
+</div>
+</body>
+</html>
